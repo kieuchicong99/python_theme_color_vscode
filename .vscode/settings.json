@@ -1,0 +1,65 @@
+{
+    // "workbench.colorCustomizations": {
+    //     "titleBar.activeBackground": "#0E6655",
+    //     "activityBar.background":"#0E6655",
+    //     "statusBar.background":"#0E6655",
+    //   },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "meta.function-call.generic.python",
+                    "punctuation.definition.arguments.end.python",
+                    "punctuation.definition.arguments.begin.python"
+                ],
+                "settings": {
+                    "foreground": "#56B6C2"
+                }
+            },
+            {
+                "scope": [
+                    "comment.line.number-sign.python",
+                    "punctuation.definition.comment.python"
+                ],
+                "settings": {
+                    "foreground": "#15ac22"
+                }
+            },
+            {
+                "scope": [
+                    "meta.function-call.arguments.python"
+                ],
+                "settings": {
+                    "foreground": "#c48a0e"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.assignment.python",
+                    "keyword.operator.arithmetic.python"
+                ],
+                "settings": {
+                    "foreground": "#fa0362"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.list.begin.python",
+                    "punctuation.definition.list.end.python"
+                ],
+                "settings": {
+                    "foreground": "#D19A66"
+                }
+            },
+            {
+                "scope": [
+                    "support.type.python"
+                ],
+                "settings": {
+                    "foreground": "#fa03fa"
+                }
+            }
+        ]
+    },
+    "workbench.colorTheme": "Default Dark+",
+}
