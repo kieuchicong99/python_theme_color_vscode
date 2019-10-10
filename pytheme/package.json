@@ -1,0 +1,21 @@
+{
+    "name": "pytheme",
+    "displayName": "pytheme",
+    "description": "python theme color",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pytheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pytheme-color-theme.json"
+            }
+        ]
+    }
+}
